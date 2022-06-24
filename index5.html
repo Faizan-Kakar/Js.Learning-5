@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Learning-5</title>
+</head>
+
+<body>
+
+    <h1>Js Learning-5</h1>
+    
+   
+            <!-- //  \\------------------------------------------------------//  // -->
+
+    <!-- Changing the content    -->
+    <div id="demo">This content will be change when we click the button "Click Me"</div>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "The content in chnged"'>Click Me</button>
+                  
+
+    <!-- Changing the syle of CSS -->
+    <h1 id = "h1" >Js also change the css style As</h1>
+
+    <button type="button" onclick='document.getElementById("h1").style.fontSize = "100px" ' >change</button>
+
+
+    <!--Showing and hiding the HTML content -->
+    <h1 id="hd" >Showing and hiding the content</h1>
+
+    <button type="button" onclick='document.getElementById("hd").style.display = "none" ' >Hide</button>
+    <button type="button" onclick='document.getElementById("hd").style.display = "block" ' >Show</button>
+
+     <!--javascript display possibilities -->
+
+     <h1>javascript display possibilities</h1>
+
+     <!-- By innerHTML -->
+     <h3>By innerHTML</h3>
+     <div id="possibilities"></div>
+     <script>
+         document.getElementById("possibilities").innerHTML = "This is displayed by using innerHTMML"
+     </script>
+
+     <!-- By document.write -->
+     <h3>By document.write</h3>
+     <Button type="button" onclick="document.write('this content is added by .write property')" > Click Me</Button>
+
+      <!-- By Windows alert -->
+      <script>window.alert('This is added by window.alert')</script>
+
+      <!-- adding numbers -->
+      <h3>adding numbers </h3>
+      <div id="demo"></div>
+      <script>
+          let x = 10;
+          let y = 20;
+          document.getElementById("demo").innerHTML = "The result by adding 1 and 2 = ";
+
+      </script>
+
+</body>
+
+</html>
